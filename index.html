@@ -9,7 +9,7 @@
     <title>My First Bootstrap Site!</title>
 </head>
 
-<body>
+<body style="margin-bottom: 80px;">
 <div class="navbar navbar-default navbar-static-top">
 
     <div class="container">
@@ -26,12 +26,146 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#" class="active">Home</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Foo</a></li>
+                        <li><a href="#">Bar</a></li>
+
+                    </ul>
+                </li>
+
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact" data-toggle="modal">Contact</a></li>
             </ul>
         </div>
 
     </div>
+</div>
+
+<div class="container">
+
+    <div class="jumbotron">
+
+        <center>
+            <h1>Hello world</h1>
+            <p>In this tutorial, we will be adding a jumbotron (formerly known as a hero unit) to our site. The purpose of the jumbotron is for large messages that you want your viewers to see clearly, such as your latest video or blog post.</p>
+            <a class="btn btn-default">Watch Now!</a>
+            <a class="btn btn-info">Tweet!</a>
+        </center>
+
+
+    </div>
+
+</div>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-3">
+
+            <h3><a href="#">$500 Gaming PC Build</a></h3>
+
+            <p>In this Bootstrap 3 tutorial, we will be using the in-built responsive grid system. This allows us to divide our page into 12 columns.</p>
+
+            <a class="btn btn-default pull-right">Subscribe on YouTube!</a>
+
+
+
+        </div>
+
+        <div class="col-md-3">
+
+            <h3><a href="#">$500 Gaming PC Build</a></h3>
+
+            <p>We will define reactivity here as the ability of Meteor (or any system) to automatically update the values of variables and objects when the information they depend on changes. The most widely-known example or a reactive system is a spreadsheet. Let’s say you have a spreadsheet with a cell A1 that contains a number and another cell B1 that runs the formula =A1+1. If A1 is set to 1, we expect B1 to change to 2. If we then change A1 to 4, how will cell B1 show the correct value of 5? Clearly, B1 needs to run its formula again. On the other hand, running when, say, C5 changes would be ineffective and wasteful. So, we need (1) a way to run B1’s formula over and over again, and (2) a way to tell B1 when to rerun. Meteor has a very clever way of achieving this with the minimum amount of reruns. This is most visible when Meteor updates templates in real-time, but you can run any code reactively. In this Bootstrap 3 tutorial, we will be using the in-built responsive grid system. This allows us to divide our page into 12 columns.</p>
+
+            <a class="btn btn-default pull-right">Subscribe on YouTube!</a>
+
+
+
+        </div>
+
+
+        <div class="col-md-3">
+
+            <h3><a href="#">$500 Gaming PC Build</a></h3>
+
+            <p>In this Bootstrap 3 tutorial, we will be using the in-built responsive grid system. This allows us to divide our page into 12 columns.</p>
+
+            <a class="btn btn-default pull-right">Subscribe on YouTube!</a>
+
+
+
+        </div>
+
+
+        <div class="col-md-3">
+
+            <h3><a href="#">$500 Gaming PC Build</a></h3>
+
+            <p>In this Bootstrap 3 tutorial, we will be using the in-built responsive grid system. This allows us to divide our page into 12 columns.</p>
+
+            <a class="btn btn-default pull-right">Subscribe on YouTube!</a>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+
+    <div class="container">
+
+        <p class="navbar-text pull-left">Site built by asampath</p>
+
+        <a class="btn btn-danger pull-right" style="margin-top: 8px;">Subscribe on YouTube!</a>
+    </div>
+
+</div>
+
+<div class="modal fade" id="contact" role="dialog">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h4>Contact Us!</h4>
+
+            </div>
+
+            <div class="modal-body">
+
+                <p>In this Bootstrap 3 tutorial, we will be using the in-built responsive grid system. This allows us to divide our page into 12 columns.</p>
+
+            </div>
+            
+            <div class="modal-footer">
+
+                <a class="btn btn-default" data-dismiss="modal">Close</a>
+                <a class="btn btn-default">Send Email</a>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
 </div>
 
 
